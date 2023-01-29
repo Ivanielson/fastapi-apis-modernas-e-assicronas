@@ -1,8 +1,15 @@
-# Repositório destinado ao aprendizado sobre o framework FastAPI
+<div>
+<h1>Repositório destinado ao aprendizado sobre o framework FastAPI</h1>
+<img align="center" height="250" width="230" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg" />
+<img align="center" height="250" width="230" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg" />
+<img align="center" height="250" width="230" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg" />
+<img align="center" height="250" width="230" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg" />
+</div><br>
 
 ## O conteúdo faz referencia ao desenvolvimento prático do curso FastAPI - APIs Modernas e Assíncronas com Python (Udemy)
 
-### Section02
+<details>
+<summary>Section02</summary>
 
 Seção 2: Introdução ao FastAPI
 
@@ -18,9 +25,11 @@ Seção 2: Introdução ao FastAPI
 
 8 - Prática: Nossa primeira API com FastAPI :heavy_check_mark:
 
-9 - Recapitulando
+9 - Recapitulando :heavy_check_mark:
+</details>
 
-### Section03
+<details>
+<summary>Section03</summary>
 
 Seção 3: Entendendo os a conceitos do FastAPI
 
@@ -53,3 +62,4 @@ Seção 3: Entendendo os a conceitos do FastAPI
 23 - Prática: Validação Customizada Pydantic
 
 24 - Recapitulando
+</details>

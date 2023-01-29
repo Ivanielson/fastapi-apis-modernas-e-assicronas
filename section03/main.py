@@ -1,5 +1,5 @@
-from fastapi import FastAPI, HTTPException, status
-
+from fastapi import FastAPI, HTTPException, status, Response
+# from fastapi.responses import JSONResponse
 from models import Course
 
 
@@ -63,6 +63,8 @@ async def update_course(course: Course, id: int):
 async def delete_course(id: int):
     if id in courses:
         del courses[id]
+        # return JSONResponse(status_code=status.HTTP_204_NO_CONTENT)
+        return Response(status_code=status.HTTP_204_NO_CONTENT)
     else:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,

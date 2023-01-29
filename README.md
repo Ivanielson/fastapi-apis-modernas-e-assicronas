@@ -34,7 +34,7 @@
 <h2>Section03</h2>
 </summary><br>
 
-<h3>Seção 3: Entendendo os a conceitos do FastAPI</h3>
+<h3>Seção 3: Entendendo os conceitos do FastAPI</h3>
 
 10 - O que vamos aprender nesta seção? :heavy_check_mark:
 

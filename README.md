@@ -9,7 +9,9 @@
 ## O conteúdo faz referencia ao desenvolvimento prático do curso FastAPI - APIs Modernas e Assíncronas com Python (Udemy)
 
 <details>
-<summary>Section02</summary>
+<summary>
+<h2>Section02</h2>
+</summary><br>
 
 Seção 2: Introdução ao FastAPI
 
@@ -29,7 +31,9 @@ Seção 2: Introdução ao FastAPI
 </details>
 
 <details>
-<summary>Section03</summary>
+<summary>
+<h2>Section03</h2>
+</summary><br>
 
 Seção 3: Entendendo os a conceitos do FastAPI
 

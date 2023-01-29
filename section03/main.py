@@ -59,6 +59,17 @@ async def update_course(course: Course, id: int):
             detail=f"Não existe um curso com ID {id}.")
 
 
+@app.delete('/courses/{id}', status_code=status.HTTP_204_NO_CONTENT)
+async def delete_course(id: int):
+    if id in courses:
+        del courses[id]
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Não existe um curso com ID {id}"
+        )
+
+
 if __name__ == '__main__':
     import uvicorn
 

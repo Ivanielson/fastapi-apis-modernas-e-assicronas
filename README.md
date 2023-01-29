@@ -13,7 +13,7 @@
 <h2>Section02</h2>
 </summary><br>
 
-Seção 2: Introdução ao FastAPI
+<h3>Seção 2: Introdução ao FastAPI</h3>
 
 3 - O que vamos aprender nesta seção? :heavy_check_mark:
 
@@ -35,7 +35,7 @@ Seção 2: Introdução ao FastAPI
 <h2>Section03</h2>
 </summary><br>
 
-Seção 3: Entendendo os a conceitos do FastAPI
+<h3>Seção 3: Entendendo os a conceitos do FastAPI</h3>
 
 10 - O que vamos aprender nesta seção? :heavy_check_mark:
 

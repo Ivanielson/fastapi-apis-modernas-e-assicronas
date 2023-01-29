@@ -5,7 +5,7 @@
 <img align="center" height="250" width="230" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg" />
 </div><br>
 
-## O conteúdo faz referencia ao desenvolvimento prático do curso FastAPI - APIs Modernas e Assíncronas com Python (Udemy)
+> O conteúdo faz referencia ao desenvolvimento prático do curso FastAPI - APIs Modernas e Assíncronas com Python (Udemy)
 
 <details>
 <summary>

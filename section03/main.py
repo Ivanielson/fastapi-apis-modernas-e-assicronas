@@ -28,7 +28,12 @@ async def get_all_courses():
 
 
 @app.get('/courses/{id}', status_code=status.HTTP_200_OK)
-async def get_course_by_id(id: int = Path(default=None, title='ID do curso', description='Deve ser entre 1 e 2', gt=0, lt=3)):
+async def get_course_by_id(id: int = Path(
+        default=None,
+        title='ID do curso',
+        description='Deve ser entre 1 e 2',
+        gt=0,
+        lt=3)):
     try:
         course = courses[id]
         return course

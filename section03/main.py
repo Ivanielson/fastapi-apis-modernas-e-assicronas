@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, status, Response
+from fastapi import FastAPI, HTTPException, status, Response, Path
 # from fastapi.responses import JSONResponse
 from models import Course
 
@@ -28,7 +28,7 @@ async def get_all_courses():
 
 
 @app.get('/courses/{id}', status_code=status.HTTP_200_OK)
-async def get_course_by_id(id: int):
+async def get_course_by_id(id: int = Path(default=None, title='ID do curso', description='Deve ser entre 1 e 2', gt=0, lt=3)):
     try:
         course = courses[id]
         return course

@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, status, Response, Path
+from fastapi import FastAPI, HTTPException, status, Response, Path, Query
 # from fastapi.responses import JSONResponse
 from models import Course
 
@@ -75,6 +75,21 @@ async def delete_course(id: int):
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Não existe um curso com ID {id}"
         )
+
+
+@app.get('/sum')
+async def sum(a: int, b: int, c: int):
+    sum_number = a + b + c
+    return {"Result": sum_number}
+
+
+@app.get('/divide')
+async def divide(
+    num1: int = Query(default=None, gt=0),
+    num2: int = Query(default=None, gt=0)
+):
+    div = num1 / num2
+    return {"result": div}
 
 
 if __name__ == '__main__':

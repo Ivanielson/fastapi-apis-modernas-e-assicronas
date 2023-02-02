@@ -62,7 +62,7 @@
 
 22 - Prática: Definindo rotas :heavy_check_mark:
 
-23 - Prática: Validação Customizada Pydantic
+23 - Prática: Validação Customizada Pydantic :heavy_check_mark:
 
-24 - Recapitulando
+24 - Recapitulando :heavy_check_mark:
 </details>

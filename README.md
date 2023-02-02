@@ -50,17 +50,17 @@
 
 16 - Prática: O método DELETE :heavy_check_mark:
 
-17 - Prática: Path Parameters
+17 - Prática: Path Parameters :heavy_check_mark:
 
-18 - Prática: Query Parameters
+18 - Prática: Query Parameters :heavy_check_mark:
 
-19 - Prática: Header Parameters
+19 - Prática: Header Parameters :heavy_check_mark:
 
-20 - Prática: Injeção de Dependências
+20 - Prática: Injeção de Dependências :heavy_check_mark:
 
-21 - Prática: Revisando os docs
+21 - Prática: Revisando os docs :heavy_check_mark:
 
-22 - Prática: Definindo rotas
+22 - Prática: Definindo rotas :heavy_check_mark:
 
 23 - Prática: Validação Customizada Pydantic
 

@@ -66,3 +66,33 @@
 
 24 - Recapitulando :heavy_check_mark:
 </details>
+
+<details>
+<summary>
+<h2>Section04</h2>
+</summary><br>
+
+<h3>Seção 4: CRUD FastAPI e SQL Alchemy</h3>
+
+25 - O que vamos aprender nesta seção?
+
+26 - Prática: Criando a estrutura do projeto
+
+27 - Prática: Trabalhando no módulo core
+
+28 - Prática: Trabalhando no módulo models
+
+29 - Prática: Trabalhando no módulo schemas
+
+30 - Prática: Criando as tabelas
+
+31 - Prática: Trabalhando no módulo api - Parte 1
+
+32 - Prática: Trabalhando no módulo api - Parte 2
+
+33 - Prática: Trabalhando no main
+
+34 - Prática: Executando e testando nosso projeto
+
+35 - Recapitulando
+</details>

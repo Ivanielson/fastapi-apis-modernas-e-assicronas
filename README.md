@@ -14,19 +14,28 @@
 
 <h3>Seção 2: Introdução ao FastAPI</h3>
 
-3 - O que vamos aprender nesta seção? :heavy_check_mark:
+Titulo da Aula                              | Concluído
+:-----------------------------------------: | :-------------------:
 
-4 - Conceitos essenciais sobre APIs :heavy_check_mark:
+3 - O que vamos aprender nesta seção?       | :heavy_check_mark:
+:-----------------------------------------: | :-------------------:
 
-5 - Apresentação do FastAPI :heavy_check_mark:
+4 - Conceitos essenciais sobre APIs         | :heavy_check_mark:
+:-----------------------------------------: | :-------------------:
 
-6 - Revisando a Programação Assincrona :heavy_check_mark:
+5 - Apresentação do FastAPI                 | :heavy_check_mark:
+:-----------------------------------------: | :-------------------:
 
-7 - Softwares utilizados no curso :heavy_check_mark:
+6 - Revisando a Programação Assincrona      | :heavy_check_mark:
+:-----------------------------------------: | :-------------------:
 
-8 - Prática: Nossa primeira API com FastAPI :heavy_check_mark:
+7 - Softwares utilizados no curso           | :heavy_check_mark:
+:-----------------------------------------: | :-------------------:
 
-9 - Recapitulando :heavy_check_mark:
+8 - Prática: Nossa primeira API com FastAPI | :heavy_check_mark:
+:-----------------------------------------: | :-------------------:
+
+9 - Recapitulando                           | :heavy_check_mark:
 </details>
 
 <details>
@@ -36,35 +45,52 @@
 
 <h3>Seção 3: Entendendo os conceitos do FastAPI</h3>
 
-10 - O que vamos aprender nesta seção? :heavy_check_mark:
+Titulo da Aula                                  | Concluído
+:-----------------------------------------:     | :-------------------:
 
-11 - Prática: Definindo o novo projeto :heavy_check_mark:
+10 - O que vamos aprender nesta seção?          | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-12 - Prática: O método GET :heavy_check_mark:
+11 - Prática: Definindo o novo projeto          | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-13 - Prática: Tratando exceções :heavy_check_mark:
+12 - Prática: O método GET                      | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-14 - Prática: O método POST :heavy_check_mark:
+13 - Prática: Tratando exceções                 | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-15 - Prática: O método PUT :heavy_check_mark:
+14 - Prática: O método POST                     | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-16 - Prática: O método DELETE :heavy_check_mark:
+15 - Prática: O método PUT                      | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-17 - Prática: Path Parameters :heavy_check_mark:
+16 - Prática: O método DELETE                   | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-18 - Prática: Query Parameters :heavy_check_mark:
+17 - Prática: Path Parameters                   | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-19 - Prática: Header Parameters :heavy_check_mark:
+18 - Prática: Query Parameters                  | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-20 - Prática: Injeção de Dependências :heavy_check_mark:
+19 - Prática: Header Parameters                 | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-21 - Prática: Revisando os docs :heavy_check_mark:
+20 - Prática: Injeção de Dependências           | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-22 - Prática: Definindo rotas :heavy_check_mark:
+21 - Prática: Revisando os docs                 | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-23 - Prática: Validação Customizada Pydantic :heavy_check_mark:
+22 - Prática: Definindo rotas                   | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
 
-24 - Recapitulando :heavy_check_mark:
+23 - Prática: Validação Customizada Pydantic    | :heavy_check_mark:
+:-----------------------------------------:     | :-------------------:
+
+24 - Recapitulando                              | :heavy_check_mark:
 </details>
 
 <details>
@@ -74,25 +100,38 @@
 
 <h3>Seção 4: CRUD FastAPI e SQL Alchemy</h3>
 
-25 - O que vamos aprender nesta seção?
+Titulo da Aula                                      | Concluído
+:-----------------------------------------:         | :-------------------:
 
-26 - Prática: Criando a estrutura do projeto
+25 - O que vamos aprender nesta seção?              | :x:
+:-----------------------------------------:         | :-------------------:
 
-27 - Prática: Trabalhando no módulo core
+26 - Prática: Criando a estrutura do projeto        | :x:
+:-----------------------------------------:         | :-------------------:
 
-28 - Prática: Trabalhando no módulo models
+27 - Prática: Trabalhando no módulo core            | :x:
+:-----------------------------------------:         | :-------------------:
 
-29 - Prática: Trabalhando no módulo schemas
+28 - Prática: Trabalhando no módulo models          | :x:
+:-----------------------------------------:         | :-------------------:
 
-30 - Prática: Criando as tabelas
+29 - Prática: Trabalhando no módulo schemas         | :x:
+:-----------------------------------------:         | :-------------------:
 
-31 - Prática: Trabalhando no módulo api - Parte 1
+30 - Prática: Criando as tabelas                    | :x:
+:-----------------------------------------:         | :-------------------:
 
-32 - Prática: Trabalhando no módulo api - Parte 2
+31 - Prática: Trabalhando no módulo api - Parte 1   | :x:
+:-----------------------------------------:         | :-------------------:
 
-33 - Prática: Trabalhando no main
+32 - Prática: Trabalhando no módulo api - Parte 2   | :x:
+:-----------------------------------------:         | :-------------------:
 
-34 - Prática: Executando e testando nosso projeto
+33 - Prática: Trabalhando no main                   | :x:
+:-----------------------------------------:         | :-------------------:
 
-35 - Recapitulando
+34 - Prática: Executando e testando nosso projeto   |
+:-----------------------------------------:         | :-------------------:
+
+35 - Recapitulando                                  | :x:
 </details>

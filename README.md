@@ -62,7 +62,7 @@
 |:-----------------------------------------:         | :-------------------:|
 | 25 - O que vamos aprender nesta seção?             | :heavy_check_mark:   |
 | 26 - Prática: Criando a estrutura do projeto       | :heavy_check_mark:   |
-| 27 - Prática: Trabalhando no módulo core           | :x:                  |
+| 27 - Prática: Trabalhando no módulo core           | :heavy_check_mark:   |
 | 28 - Prática: Trabalhando no módulo models         | :x:                  |
 | 29 - Prática: Trabalhando no módulo schemas        | :x:                  |
 | 30 - Prática: Criando as tabelas                   | :x:                  |

@@ -64,7 +64,7 @@
 | 26 - Prática: Criando a estrutura do projeto       | :heavy_check_mark:   |
 | 27 - Prática: Trabalhando no módulo core           | :heavy_check_mark:   |
 | 28 - Prática: Trabalhando no módulo models         | :heavy_check_mark:   |
-| 29 - Prática: Trabalhando no módulo schemas        | :x:                  |
+| 29 - Prática: Trabalhando no módulo schemas        | :heavy_check_mark:   |
 | 30 - Prática: Criando as tabelas                   | :x:                  |
 | 31 - Prática: Trabalhando no módulo api - Parte 1  | :x:                  |
 | 32 - Prática: Trabalhando no módulo api - Parte 2  | :x:                  |

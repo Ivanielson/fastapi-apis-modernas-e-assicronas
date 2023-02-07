@@ -171,3 +171,6 @@ poetry.toml
 .ruff_cache/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+# Comandos para subir container do postgres
+up_container_postgres.txt

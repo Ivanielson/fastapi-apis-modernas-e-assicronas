@@ -26,3 +26,47 @@ async def get_all_courses(db: AsyncSession = Depends(get_session)):
         result = await session.execute(query)
         courses: List[CursoModel] = result.scalars().all()
         return courses
+
+
+@router.get('/{id}', status_code=status.HTTP_200_OK, response_model=CourseSchema)
+async def get_course(id: int, db: AsyncSession = Depends(get_session)):
+    async with db as session:
+        query = select(CursoModel).filter(CursoModel.id == id)
+        result = await session.execute(query)
+        course: CourseSchema = result.scalar_one_or_none()
+
+        if course:
+            return course
+        else:
+            raise HTTPException(detail="Curso não encontrado.", status_code=status.HTTP_404_NOT_FOUND)
+
+
+@router.put('/{id}', status_code=status.HTTP_200_OK, response_model=CourseSchema)
+async def update_course(id: int, course: CourseSchema, db: AsyncSession = Depends(get_session)):
+    async with db as session:
+        query = select(CursoModel).filter(CursoModel.id == id)
+        result = await session.execute(query)
+        course_update = result.scalar_one_or_none()
+
+        if course_update:
+            course_update = {"id": id, **course}
+            await session.commit()
+            return course_update
+        else:
+            raise HTTPException(detail="Curso não encontrado.", status_code=status.HTTP_404_NOT_FOUND)
+
+
+@router.delete('/{id}', status_code=status.HTTP_204_NO_CONTENT)
+async def delete_course(id: int, db: AsyncSession = Depends(get_session)):
+    async with db as session:
+        query = select(CursoModel).filter(CursoModel.id == id)
+        result = await session.execute(query)
+        course_delete = result.scalar_one_or_none()
+
+        if course_delete:
+            await session.delete(course_delete)
+            session.commit()
+
+            return Response(status_code=status.HTTP_204_NO_CONTENT)
+        else:
+            raise HTTPException(detail="Curso não encontrado.", status_code=status.HTTP_404_NOT_FOUND)

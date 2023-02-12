@@ -68,7 +68,7 @@
 | 30 - Prática: Criando as tabelas                   | :heavy_check_mark:   |
 | 31 - Prática: Trabalhando no módulo api - Parte 1  | :heavy_check_mark:   |
 | 32 - Prática: Trabalhando no módulo api - Parte 2  | :heavy_check_mark:   |
-| 33 - Prática: Trabalhando no main                  | :x:                  |
-| 34 - Prática: Executando e testando nosso projeto  | :x:                  |
-| 35 - Recapitulando                                 | :x:                  |
+| 33 - Prática: Trabalhando no main                  | :heavy_check_mark:   |
+| 34 - Prática: Executando e testando nosso projeto  | :heavy_check_mark:   |
+| 35 - Recapitulando                                 | :heavy_check_mark:   |
 </details>

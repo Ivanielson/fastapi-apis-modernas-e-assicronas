@@ -12,7 +12,7 @@ router = APIRouter()
 
 @router.post('/', status_code=status.HTTP_201_CREATED, response_model=CourseSchema)
 async def create_course(curso: CourseSchema, db: AsyncSession = Depends(get_session)):
-    new_course = CursoModel(curso)
+    new_course = CursoModel(title=curso.title, classes=curso.classes, hours=curso.hours)
     db.add(new_course)
     await db.commit()
 
@@ -49,7 +49,9 @@ async def update_course(id: int, course: CourseSchema, db: AsyncSession = Depend
         course_update = result.scalar_one_or_none()
 
         if course_update:
-            course_update = {"id": id, **course}
+            course_update.title = course.title
+            course_update.classes = course.classes
+            course_update.hours = course.hours
             await session.commit()
             return course_update
         else:
@@ -65,7 +67,7 @@ async def delete_course(id: int, db: AsyncSession = Depends(get_session)):
 
         if course_delete:
             await session.delete(course_delete)
-            session.commit()
+            await session.commit()
 
             return Response(status_code=status.HTTP_204_NO_CONTENT)
         else:

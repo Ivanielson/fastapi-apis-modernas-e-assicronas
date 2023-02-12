@@ -60,15 +60,15 @@
 
 | Titulo da Aula                                     | Concluído            |
 |:-----------------------------------------:         | :-------------------:|
-| 25 - O que vamos aprender nesta seção?             | :x:                  |
-| 26 - Prática: Criando a estrutura do projeto       | :x:                  |
-| 27 - Prática: Trabalhando no módulo core           | :x:                  |
-| 28 - Prática: Trabalhando no módulo models         | :x:                  |
-| 29 - Prática: Trabalhando no módulo schemas        | :x:                  |
-| 30 - Prática: Criando as tabelas                   | :x:                  |
-| 31 - Prática: Trabalhando no módulo api - Parte 1  | :x:                  |
-| 32 - Prática: Trabalhando no módulo api - Parte 2  | :x:                  |
-| 33 - Prática: Trabalhando no main                  | :x:                  |
-| 34 - Prática: Executando e testando nosso projeto  | :x:                  |
-| 35 - Recapitulando                                 | :x:                  |
+| 25 - O que vamos aprender nesta seção?             | :heavy_check_mark:   |
+| 26 - Prática: Criando a estrutura do projeto       | :heavy_check_mark:   |
+| 27 - Prática: Trabalhando no módulo core           | :heavy_check_mark:   |
+| 28 - Prática: Trabalhando no módulo models         | :heavy_check_mark:   |
+| 29 - Prática: Trabalhando no módulo schemas        | :heavy_check_mark:   |
+| 30 - Prática: Criando as tabelas                   | :heavy_check_mark:   |
+| 31 - Prática: Trabalhando no módulo api - Parte 1  | :heavy_check_mark:   |
+| 32 - Prática: Trabalhando no módulo api - Parte 2  | :heavy_check_mark:   |
+| 33 - Prática: Trabalhando no main                  | :heavy_check_mark:   |
+| 34 - Prática: Executando e testando nosso projeto  | :heavy_check_mark:   |
+| 35 - Recapitulando                                 | :heavy_check_mark:   |
 </details>

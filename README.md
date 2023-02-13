@@ -72,3 +72,25 @@
 | 34 - Prática: Executando e testando nosso projeto  | :heavy_check_mark:   |
 | 35 - Recapitulando                                 | :heavy_check_mark:   |
 </details>
+
+<details>
+<summary>
+<h2>Section05</h2>
+</summary><br>
+
+<h3>Seção 5: CRUD FastAPI e SQL Model</h3>
+
+| Titulo da Aula                                     | Concluído            |
+|:-----------------------------------------:         | :-------------------:|
+| 36 - O que vamos aprender nesta seção?             | :heavy_check_mark:   |
+| 37 - Prática: Criando a estrutura do projeto       | :x:                  |
+| 38 - Prática: Trabalhando no módulo core           | :x:                  |
+| 39 - Prática: Trabalhando no módulo models         | :x:                  |
+| 40 - Prática: Criando as tabelas                   | :x:                  |
+| 41 - Prática: Trabalhando no módulo api - Parte 1  | :x:                  |
+| 42 - Prática: Trabalhando no módulo api - Parte 2  | :x:                  |
+| 43 - Prática: Trabalhando no main                  | :x:                  |
+| 44 - Prática: Executando e testando nosso projeto  | :x:                  |
+| 45 - Recapitulando                                 | :x:                  |
+</details>
+

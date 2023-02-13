@@ -83,7 +83,7 @@
 | Titulo da Aula                                     | Concluído            |
 |:-----------------------------------------:         | :-------------------:|
 | 36 - O que vamos aprender nesta seção?             | :heavy_check_mark:   |
-| 37 - Prática: Criando a estrutura do projeto       | :x:                  |
+| 37 - Prática: Criando a estrutura do projeto       | :heavy_check_mark:   |
 | 38 - Prática: Trabalhando no módulo core           | :x:                  |
 | 39 - Prática: Trabalhando no módulo models         | :x:                  |
 | 40 - Prática: Criando as tabelas                   | :x:                  |
@@ -93,4 +93,3 @@
 | 44 - Prática: Executando e testando nosso projeto  | :x:                  |
 | 45 - Recapitulando                                 | :x:                  |
 </details>
-

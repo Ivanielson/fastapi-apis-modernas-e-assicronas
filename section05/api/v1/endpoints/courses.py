@@ -32,3 +32,48 @@ async def get_all_courses(db: AsyncSession = Depends(get_session)):
         result = await session.execute(query)
         courses: List[CourseModel] = result.scalars().all()
         return courses
+
+
+@router.get('/{id}', status_code=status.HTTP_200_OK, response_model=CourseModel)
+async def get_course_by_id(id: int, db: AsyncSession = Depends(get_session)):
+    async with db as session:
+        query = select(CourseModel).filter(CourseModel.id == id)
+        result = await session.execute(query)
+        course: CourseModel = result.scalar_one_or_none()
+
+        if course:
+            return course
+        else:
+            raise HTTPException(detail="Curso não encontrado!", status_code=status.HTTP_404_NOT_FOUND)
+
+
+@router.put('/{id}', status_code=status.HTTP_202_ACCEPTED, response_model=CourseModel)
+async def update_course(id: int, course: CourseModel, db: AsyncSession = Depends(get_session)):
+    async with db as session:
+        query = select(CourseModel).filter(CourseModel.id == id)
+        result = await session.execute(query)
+        course_update = result.scalar_one_or_none()
+
+        if course_update:
+            course_update.title = course.title
+            course_update.classes = course.classes
+            course_update.hours = course.hours
+            await session.commit()
+            return course_update
+        else:
+            raise HTTPException(detail="Curso não encontrado!", status_code=status.HTTP_404_NOT_FOUND)
+
+
+@router.delete('/{id}', status_code=status.HTTP_204_NO_CONTENT)
+async def delete_course(id: int, db: AsyncSession = Depends(get_session)):
+    async with db as session:
+        query = select(CourseModel).filter(CourseModel.id == id)
+        result = await session.execute(query)
+        remove_course = result.scalar_one_or_none()
+
+        if remove_course:
+            await session.delete(remove_course)
+            await session.commit()
+            return Response(status_code=status.HTTP_204_NO_CONTENT)
+        else:
+            raise HTTPException(detail="Curso não encontrado!", status_code=status.HTTP_404_NOT_FOUND)

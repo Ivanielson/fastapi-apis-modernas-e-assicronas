@@ -90,6 +90,6 @@
 | 41 - Prática: Trabalhando no módulo api - Parte 1  | :heavy_check_mark:   |
 | 42 - Prática: Trabalhando no módulo api - Parte 2  | :heavy_check_mark:   |
 | 43 - Prática: Trabalhando no main                  | :heavy_check_mark:   |
-| 44 - Prática: Executando e testando nosso projeto  | :x:                  |
-| 45 - Recapitulando                                 | :x:                  |
+| 44 - Prática: Executando e testando nosso projeto  | :heavy_check_mark:   |
+| 45 - Recapitulando                                 | :heavy_check_mark:   |
 </details>

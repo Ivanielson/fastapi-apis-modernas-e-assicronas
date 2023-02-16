@@ -93,3 +93,26 @@
 | 44 - Prática: Executando e testando nosso projeto  | :heavy_check_mark:   |
 | 45 - Recapitulando                                 | :heavy_check_mark:   |
 </details>
+
+<details>
+<summary>
+<h2>Section06</h2>
+</summary><br>
+
+<h3>Seção 6: Segurança: Autenticação e Autorização com FastAPI</h3>
+
+| Titulo da Aula                                     | Concluído            |
+|:-----------------------------------------:         | :-------------------:|
+| 46 - O que vamos aprender nesta seção?             | :heavy_check_mark:   |
+| 47 - Prática: Criando a estrutura do projeto       | :heavy_check_mark:   |
+| 48 - Prática: Trabalhando no módulo core - Part 1  | :x:                  |
+| 49 - Prática: Trabalhando no módulo core - Part 2  | :x:                  |
+| 50 - Prática: Trabalhando no módulo models         | :x:                  |
+| 59 - Prática: Trabalhando no módulo schemas        | :x:                  |
+| 52 - Prática: Criando as tabelas                   | :x:                  |
+| 53 - Prática: Trabalhando no módulo api - Parte 1  | :x:                  |
+| 54 - Prática: Trabalhando no módulo api - Parte 2  | :x:                  |
+| 55 - Prática: Trabalhando no main                  | :x:                  |
+| 56 - Prática: Executando e testando nosso projeto  | :x:                  |
+| 57 - Recapitulando                                 | :x:                  |
+</details>

@@ -2,6 +2,8 @@ from typing import List
 from pydantic import BaseSettings
 from sqlalchemy.ext.declarative import declarative_base
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 class Settings(BaseSettings):

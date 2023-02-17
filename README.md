@@ -106,7 +106,7 @@
 | 46 - O que vamos aprender nesta seção?             | :heavy_check_mark:   |
 | 47 - Prática: Criando a estrutura do projeto       | :heavy_check_mark:   |
 | 48 - Prática: Trabalhando no módulo core - Part 1  | :heavy_check_mark:   |
-| 49 - Prática: Trabalhando no módulo core - Part 2  | :x:                  |
+| 49 - Prática: Trabalhando no módulo core - Part 2  | :heavy_check_mark:   |
 | 50 - Prática: Trabalhando no módulo models         | :x:                  |
 | 59 - Prática: Trabalhando no módulo schemas        | :x:                  |
 | 52 - Prática: Criando as tabelas                   | :x:                  |

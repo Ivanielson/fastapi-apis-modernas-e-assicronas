@@ -66,14 +66,12 @@ async def update_article(
         article_update: ArticleModel = result.scalars().unique().one_or_none()
 
         if article_update:
-            if article_update.title:
-                article_update.title = article.title
-            if article_update.description:
-                article_update.description = article.description
-            if article_update.url_source:
-                article_update.url_source = article.url_source
+            article_update.title = article.title
+            article_update.description = article.description
+            article_update.url_source = article.url_source                
             if article_update.id != user_logged_in.id:
                 article_update.id = user_logged_in.id
+            
             await session.commit()
             return article_update
         else:

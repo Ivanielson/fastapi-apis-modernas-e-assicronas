@@ -5,7 +5,7 @@ from pydantic import BaseModel, HttpUrl
 class ArticleSchema(BaseModel):
     id: Optional[int] = None
     title: str
-    decription: str
+    description: str
     url_source: HttpUrl
     user_id: Optional[int]
 

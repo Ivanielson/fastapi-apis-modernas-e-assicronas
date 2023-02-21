@@ -4,6 +4,7 @@ from fastapi.security import OAuth2PasswordRequestForm
 from fastapi.responses import JSONResponse
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
+from sqlalchemy.exc import IntegrityError
 from models.user_model import UserModel
 from schemas.user_schema import UserSchemaBase, UserSchemaCreate, UserSchemaUpdate, UserSchemaArticles
 from core.deps import get_session, get_current_user
@@ -29,9 +30,12 @@ async def create_user(user: UserSchemaCreate, db: AsyncSession = Depends(get_ses
         is_admin=user.is_admin
     )
     async with db as session:
-        session.add(new_user)
-        await session.commit()
-        return new_user
+        try:
+            session.add(new_user)
+            await session.commit()
+            return new_user
+        except IntegrityError:
+            raise HTTPException(detail="Já existe um usuário cadastrado com o e-mail informado.", status_code=status.HTTP_409_CONFLICT)
 
 
 @router.get('/', status_code=status.HTTP_200_OK, response_model=List[UserSchemaBase])
@@ -96,12 +100,12 @@ async def del_user_by_id(id: int, db: AsyncSession = Depends(get_session)):
             raise HTTPException(detail="Usuário não encontrado.", status_code=status.HTTP_404_NOT_FOUND)
 
 
-@router.post('/loin', status_code=status.HTTP_200_OK)
+@router.post('/login', status_code=status.HTTP_200_OK)
 async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSession = Depends(get_session)):
     user = await authenticate(email=form_data.username, password=form_data.password, db=db)
 
     if not user:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Dados de acesso incorretos.")
 
-    return JSONResponse(content={"access_token": create_token_access(sub=user), "token_type": "bearer"}, status_code=status.HTTP_200_OK)
+    return JSONResponse(content={"access_token": create_token_access(sub=user.id), "token_type": "bearer"}, status_code=status.HTTP_200_OK)
 

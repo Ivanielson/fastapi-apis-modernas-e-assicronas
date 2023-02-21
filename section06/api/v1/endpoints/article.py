@@ -11,7 +11,7 @@ from core.deps import get_session, get_current_user
 router = APIRouter()
 
 
-@router.post('/', status_code=status.HTTP_201_CREATED, reponse_model=ArticleSchema)
+@router.post('/', status_code=status.HTTP_201_CREATED, response_model=ArticleSchema)
 async def create_article(
     article: ArticleSchema,
     user_logged_in: UserModel = Depends(get_current_user),
@@ -69,8 +69,8 @@ async def update_article(
             article_update.title = article.title
             article_update.description = article.description
             article_update.url_source = article.url_source                
-            if article_update.id != user_logged_in.id:
-                article_update.id = user_logged_in.id
+            if article_update.user_id != user_logged_in.id:
+                article_update.user_id = user_logged_in.id
             
             await session.commit()
             return article_update

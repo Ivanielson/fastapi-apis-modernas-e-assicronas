@@ -37,11 +37,13 @@ async def get_current_user(db: Session = Depends(get_session), token: str = Depe
             algorithms=[settings.ALGORITHM],
             options={"verify_aud": False}
         )
-        username: str = payload.get("sub")
 
-        if username is None:
+        user_name: str = payload.get("sub")
+
+        if user_name is None:
             raise credential_exception
-        token_data: TokenData = TokenData(username=username)
+        
+        token_data: TokenData = TokenData(username=user_name)
     except JWTError:
         raise credential_exception
     
